@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#footer-container{
+    background-color: black;
+}
+h1{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.main-container{
+    width: 560px;
+    height: max-content;
+    margin-top: 5%;
+}
+
+.footer-social h6{
+    padding: 8px;
+}
+.footer-social p{
+    padding: 8px;
+
+    color: white;
+}
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    padding: 8px;
+    
+}
+.footer-social ul li{
+    margin-right: 15px;
+    transition: all 0.15s ease-in-out;
+}
+.footer-social ul li:hover{
+    transform: scale(1.15);
+}
+.services-section{
+    margin-bottom: 5%;
+}
+.card{
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 425px) {
+    .main-container{
+        width: 320px;
+        height: 400px;
+        margin-top: 5%;
+    }
+    .main-container h1{
+        font-size: 40px;
+    }
+
+}
