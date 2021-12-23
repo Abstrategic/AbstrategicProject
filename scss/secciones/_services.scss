@@ -1,0 +1,89 @@
+
+.main-container{
+
+    width: 750px;
+    height: max-content;
+    position: relative;
+
+    .section-2{
+        width: 750px;
+        height: 750px;
+        position: relative;
+        // margin-top: 64px;
+    
+        .contact-title{
+    
+            h2{ 
+                width: 450px;
+                margin-top: 26px;
+            }
+            .section-description{
+                
+                p{
+                    width: 320px;
+                    margin-top: 48px;
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+    .secundary-section{
+        .service-content{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            // margin: auto;
+    
+            .card-1{
+                .container-card{
+                    background: $c-f2;
+                    margin: auto;
+                    padding: 40px;
+                    width: 250px;
+                    height: max-content;
+                    background: $c-c2;
+                    border-radius: 0px;
+                }
+                .number-card{
+                    height: max-content;
+                    width: max-content;
+                    position: relative;
+                    top:20px;
+                }   
+            }
+            .card-2{
+                .container-card{
+                    background: $c-c2;
+                    padding: 40px;
+                    width: 250px;
+                    height: max-content;
+                    background: $c-c2;
+                    border-radius: 0px;
+                }
+                .number-card{
+                    height: max-content;
+                    width: max-content;
+                    position: relative;
+                    top:20px;
+                }
+            }
+            .card-3{
+                .container-card{
+                    background: $c-c3;
+                    padding: 40px;
+                    width: 250px;
+                    height: max-content;
+                    background: $c-c2;
+                    border-radius: 0px;
+                }
+                .number-card{
+                    height: max-content;
+                    width: max-content;
+                    position: relative;
+                    top:20px;
+                }
+            }
+        }
+    }
+}

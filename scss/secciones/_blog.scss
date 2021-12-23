@@ -1,0 +1,216 @@
+.main-container{
+
+    width: 750px;
+    height: max-content;
+    position: relative;
+
+    .section-2{
+        width: 750px;
+        height: 750px;
+        position: relative;
+        margin-top: 64px;
+    
+        .contact-title{
+    
+            h2{ 
+                width: 450px;
+                margin-top: 26px;
+            }
+            .section-description{
+                display: flex;
+                flex-direction: row;
+                p{
+                    width: 320px;
+                    margin-top: 48px;
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+}
+
+.blog-container{
+    width: 750px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    .main-post{
+        position: relative;
+        width: 720px;
+        height: 389px;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 15px;
+        
+    
+        background: rgba(87, 125, 221, 0.6);
+        border-radius: 0px;
+        .content-text{
+            width: 438px;
+            height: 137px;
+            padding: 30px;
+    
+            position: absolute;
+            bottom: 80px;
+            left: 0px;
+            p{
+                height: 58px;
+            }
+        }
+    }
+    .container-wrap{
+        width: 750px;
+        height: 720px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        
+        .rest-post{
+            height: max-content;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        
+            .post-container{
+                width: 345px;
+                height: 414px;
+                
+            
+                background: $c-bg;
+                position: relative;
+                left: 0px;
+                top:0px;
+                margin-top: 15px;
+                margin-right: 30px;
+            
+                .image-container{
+                    width: 345px;
+                    height: 194px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    background: #577DDD;
+                    h4{
+                        width: 237px;
+                        height: 20px;
+                        position: absolute;
+                        bottom: 0px;
+                        padding: 30px;
+                    }
+                }
+                .content-text2{
+                    width: 345px;
+                    height: 194px;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0px;
+                    padding: 30px;
+            
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 180%;
+    /* identical to box height, or 22px */
+
+
+    color: #FFFFFF;
+
+}
+.hour{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    /* identical to box height, or 22px */
+    margin-left: 8px;
+
+
+    color: #FFFFFF;
+}
+.cta-post{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+
+
+    color: #FFFFFF;
+
+}
+.container-footer{
+    position: relative;
+    // top: 500px;
+    left: 0px;
+}
+
+@media screen and (min-width: 425px) {
+    .main-container{
+
+        width: 300px;
+        height: max-content ;
+        position: relative;
+        top: 0px;
+    
+        .section-5{
+            width: 300px;
+            height: 881px;
+            position: relative  ;
+            margin-top: 64px;
+
+            .contact-title{
+                width: 300px;
+                h2{ 
+                    width: 300px;
+                    height: max-content;
+                    margin-top: 26px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .rest-post{
+        width: 300px;
+        position: absolute ;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .blog-container{
+        width: 300px;
+        height: 881px;
+        position: relative  ;
+        top: 0px;
+
+    }
+    .main-post{
+        position: relative;
+        width: 350px;
+        height: 389px;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 0px;
+    }
+} 

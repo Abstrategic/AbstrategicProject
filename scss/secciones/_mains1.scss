@@ -1,0 +1,102 @@
+// .main-container{
+//     width: 768px;
+//     height: max-content;
+//     position: relative;
+//     margin: auto;
+
+//     .section-1{
+//         width: 768px;
+//         background-color: $c-bg;
+//         margin-top: 64px;
+//         margin-bottom: 80px;
+        
+//         display: grid;
+//         position:relative; 
+//         grid-auto-columns: 1fr; 
+//         grid-template-columns: 1fr 1fr; 
+//         grid-template-rows: 1fr 0.5fr; 
+//         gap: 0px 0px; 
+//         grid-template-areas: 
+//         "main-content imagen-container"
+//         "sub-section sub-section";
+    
+//         .imagen-container { 
+//             grid-area: imagen-container;
+//             position: absolute;
+//             top: 0px;
+//             right: 0px;
+//         }
+//         .main-content { 
+//             grid-area: main-content;
+//             padding: 20px;
+//             position: relative;
+//             margin-top: 10%;
+//             h1{
+//                 width: 500px;
+//             }
+//             h2{
+//                 width: 500px;
+//             }
+//         }
+//     }
+// }
+// .sub-section { 
+//     grid-area: sub-section;
+//     width: 100%;
+//     height: max-content;
+//     position: relative;
+//     right: 52px;
+    
+//     .card1{
+//         width: 348px;
+//         height: 170px;
+//         padding: 62px;
+//         position: absolute;
+//         left: 200px;
+//         background-color: #577DDD;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items:center;
+//         .title-card{
+//             width: 225px;
+//         }
+//         .main-cta{
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: center;
+//             .icon-card{
+//                 margin-left: 16px;
+//             }
+//         }
+//     }
+//     .card2{
+//         width: 348px;
+//         height: 170px;
+//         padding: 62px;
+//         position: absolute;
+//         right: 13px;
+//         background-color: #688CE8;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items:center;
+//         .title-card{
+//             width: 225px;
+//         }
+//         .main-cta{
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: center;
+//             .icon-card{
+//                 margin-left: 16px;
+//             }
+//         }
+//     }
+//     .sub-icon{
+//         position:absolute ;
+//         top: 48px;
+//         left: 56px;
+//     }  
+// }
+

@@ -1,0 +1,15 @@
+$width-container: 540px;
+
+
+
+.container-main{
+    width: 100%;
+}
+.container-main{
+    grid-area: main-section;
+    width: $width-container;
+    h1{
+        font-family: 'Noto Sans Mono', monospace;
+        font-size: 48px;
+    }
+}
